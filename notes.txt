@@ -1,0 +1,35 @@
+images
+colors
+font
+font size
+font weight
+line height
+gradients
+shadows
+logo
+icons
+spacing and size
+
+
+main nav:
+-background color: acd373
+main nav shadow:
+- opacity: 6%
+- angle: 120 degrees
+- distance: 5px
+- spread: 0%
+- size: 5px
+- color: 000000
+main nav font:
+- font: source sans pro black
+- font-size: 18px
+- font-color: f7f7f7
+first section background: 9abd67
+first section text:
+- font: source sans pro black
+- size: 48 px
+- color: f7f7f7
+first section sub-text:
+- font: DroidSerif Italic
+- size: 24px
+- color: f7f7f7
