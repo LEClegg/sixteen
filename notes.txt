@@ -12,9 +12,9 @@ spacing and size
 
 
 main nav:
-- background color: acd373
-- section width: 1600px
-- section height: 106px
+- color-fill: acd373
+- width: 1600px
+- height: 106px
 
 main nav shadow:
 - opacity: 6%
@@ -31,9 +31,9 @@ main nav font:
 
 
 welcome banner background: 
-- color: 9abd67
-- section width: 1600px
-- section height: 700px
+- color-fill: 9abd67
+- width: 1600px
+- height: 700px
 
 welcome banner header:
 - font: source sans pro black (caps)
@@ -57,9 +57,9 @@ who we are copy:
 - font-color: 454545
 
 who we are background:
-- color: f7f7f7
-- section width: 1600px
-- section height: 575px
+- color-fill: f7f7f7
+- width: 1600px
+- height: 575px
 
 who we are - learn more button: 
 - font: droidserif italic
@@ -84,7 +84,7 @@ our services tagline:
 - letter-spacing: -50
 
 our services background:
-- color: f7f7f7
+- color-fill: f7f7f7
 - section width: 1600px
 - section height: 735px
 
@@ -142,7 +142,7 @@ meet our team individual title font:
 
 
 are you the next background:
-- color: 9abd67
+- color-fill: 9abd67
 - width: 1600px
 - height: 110px
 
@@ -162,7 +162,7 @@ are you the next - we’re hiring button:
 
 
 our recent works background:
-- color: f7f7f7
+- color-fill: f7f7f7
 - width: 1600px
 - height: 1148px
 
@@ -189,12 +189,12 @@ our recent works - example captions:
 - font-color: 787878
 
 our recent works - lower grey box long:
-- color: ebebeb
+- color-fill: ebebeb
 - width: 570px
 - height: 370px
 
 our recent works - lower grey box short:
-- color: ebebeb
+- color-fill: ebebeb
 - width: 300px
 - height: 370px
 
@@ -209,7 +209,7 @@ our recent works - view all works button:
 
 
 customer logo section background:
-- color: ebebeb
+- color-fill: ebebeb
 - width: 1600px
 - height: 119px
 
@@ -273,6 +273,12 @@ testimonials - give testimonials button:
 - button box height: 40px
 - stroke: 1pt
 
+
+blog - background:
+- color-fill: f7f7f7
+- width: 1600px
+- height: 690px
+
 blog - header:
 - font: source sans pro regular (caps)
 - font-size: 30px
@@ -288,4 +294,98 @@ blog - titles:
 - font: source sans pro semibold
 - font-size: 18px
 - font-color: 454545
-- letter-spacing: -50
+- baseline-shift: -25px, -14px, -21px, -15px
+
+blog - grey background:
+- color-fill: ebebeb
+- width: 270px
+- height: 285px
+
+blog - read more text:
+- font: droidserif italic
+- font-size: 14px
+- font-color: f7f7f7
+
+blog - read more button:
+- color-fill: acd373
+- width: 270px
+- height: 50px
+
+
+newsletter - background: 
+- color-fill: acd373
+- width: 1600px
+- height: 110px
+
+newsletter - text:
+- font: source sans pro regular
+- font-size: 18px
+- font-color: f7f7f7
+
+newsletter - enter email box:
+- button box color: f7f7f7
+- button box width: 180px
+- button box height: 41px
+- stroke: 1pt
+
+newsletter - enter email text: 
+- font: droidserif italic
+- font-size: 14px
+- font-color: f7f7f7
+
+
+map: 
+- width: 1600px
+- height: 500px
+
+
+contact - background: 
+- color-fill: acd373
+- width: 1600px
+- height: 750px
+
+contact - header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color: f7f7f7
+- character-tracking: 20
+
+contact - titles:
+- font: source sans pro regular
+- font-size: 18px
+- font-color: f7f7f7
+- character-tracking: 20
+- leading: 24px
+
+contact - placeholder text
+- font: droidserif italic
+- font-size: 15px
+- font-color: f7f7f7
+- character-tracking: 20
+- leading: 24px (name and email), 22px (message)
+
+contact - text boxes:
+- color-fill: 9abd67
+- box width: 570px
+- box height: 40px (one line), 156px (message)
+
+contact - send button:
+- font: droidserif italic
+- font-size: 18px
+- font-color: f7f7f7
+- button box color: 9abd67
+- button box width: 110px
+- button box height: 40px
+
+
+footer - background:
+- color-fill: 9abd67
+- width: 1600px
+- height: 100px
+
+footer - text:
+- font: source sans pro regular
+- font-size: 18px
+- font-color: f7f7f7
+- character-tracking: 20
+- kerning: metrics
