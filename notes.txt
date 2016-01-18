@@ -12,7 +12,10 @@ spacing and size
 
 
 main nav:
--background color: acd373
+- background color: acd373
+- section width: 1600px
+- section height: 106px
+
 main nav shadow:
 - opacity: 6%
 - angle: 120 degrees
@@ -20,16 +23,269 @@ main nav shadow:
 - spread: 0%
 - size: 5px
 - color: 000000
+
 main nav font:
-- font: source sans pro black
+- font: source sans pro black (caps)
 - font-size: 18px
 - font-color: f7f7f7
-first section background: 9abd67
-first section text:
-- font: source sans pro black
-- size: 48 px
+
+
+welcome banner background: 
+- color: 9abd67
+- section width: 1600px
+- section height: 700px
+
+welcome banner header:
+- font: source sans pro black (caps)
+- font-size: 48 px
+- font-color: f7f7f7
+
+welcome banner tagline:
+- font: droidserif italic
+- font-size: 24px
+- font-color: f7f7f7
+
+
+who we are header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color: 454545
+
+who we are copy:
+- font: source sans pro regular
+- font size: 18px
+- font-color: 454545
+
+who we are background:
 - color: f7f7f7
-first section sub-text:
-- font: DroidSerif Italic
-- size: 24px
+- section width: 1600px
+- section height: 575px
+
+who we are - learn more button: 
+- font: droidserif italic
+- font-size: 18px
+- font-color: acd373
+- button box color: acd373
+- button box width: 141px
+- button box height: 40px
+- stroke: 1pt
+
+
+our services header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color-our: 454545
+- font-color-services: acd373
+
+our services tagline:
+- font: droidserif regular
+- font-size: 18px
+- font-color: 454545
+- letter-spacing: -50
+
+our services background:
 - color: f7f7f7
+- section width: 1600px
+- section height: 735px
+
+graphic design (et. al) header:
+- font: source sans pro bold (caps)
+- font-style: bold
+- font-size: 20px
+- font-color: acd373
+
+graphic design (et. al) copy:
+- font: source sans pro regular
+- font-size: 18px
+- font-color: 454545
+
+our service - learn more button:
+- font: droidserif italic
+- font-size: 18px
+- font-color: acd373
+- button box color: acd373
+- button box width: 140px
+- button box height: 40px
+- stroke: 1pt
+
+
+meet our amazing team header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color: f7f7f7
+
+meet our amazing team tagline:
+- font: droidserif regular
+- font-size: 18px
+- font-color: f7f7f7
+- character-tracking: -50
+
+meet our team individual background:
+- top color: f7f7f7
+- width: 270px
+- height: 247px
+- corners (white): 5px5px5px5px
+- bottom color: ebebeb
+- bottom width: 270px
+- bottom height: 70px
+- corners (grey): 0px0px5px5px
+
+meet our team individual name font:
+- font: source sans pro bold (caps)
+- font-size: 20px
+- font-color: acd373
+
+meet our team individual title font:
+- font: droidserif italic
+- font-size: 16px
+- font-color: 787878
+
+
+are you the next background:
+- color: 9abd67
+- width: 1600px
+- height: 110px
+
+are you the next text: 
+- font: source sans pro regular
+- font-size: 18px
+- font-color: f7f7f7
+
+are you the next - we’re hiring button:
+- font: droidserif italic
+- font-size: 18px
+- font-color: f2f2f2
+- button box color: f2f2f2
+- button box width: 162px
+- button box height: 40px
+- stroke: 1pt
+
+
+our recent works background:
+- color: f7f7f7
+- width: 1600px
+- height: 1148px
+
+our recent works - header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- our recent font-color: 454545
+- works font-color: acd373
+
+our recent works - tagline:
+- font: droidserif regular
+- font-size: 18px
+- font-color: 454545
+- character-tracking: -50
+
+our recent works - example titles:
+- font: source sans pro bold
+- font-size: 18px
+- font-color: 454545
+
+our recent works - example captions:
+- font: droidserif italics
+- font-size: 16px
+- font-color: 787878
+
+our recent works - lower grey box long:
+- color: ebebeb
+- width: 570px
+- height: 370px
+
+our recent works - lower grey box short:
+- color: ebebeb
+- width: 300px
+- height: 370px
+
+our recent works - view all works button:
+- font: droidserif italic
+- font-size: 18px
+- font-color: acd373
+- button box color: acd373
+- button box width: 190px
+- button box height: 40px
+- stroke: 1pt
+
+
+customer logo section background:
+- color: ebebeb
+- width: 1600px
+- height: 119px
+
+
+testimonials - header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color: f7f7f7
+
+testimonials - copy:
+- font: source sans pro regular
+- font-size: 18px
+- font-color: f7f7f7
+
+testimonials - quote:
+- font: droidserif regular
+- font-size: 16px
+- font-color: f7f7f7
+
+testimonials - quote person name:
+- font: source sans pro bold (caps)
+- font-size: 18px
+- font-color: acd373
+
+testimonials - quote person company:
+- font: droidserif italic
+- font-size: 18px
+- font-color: f7f7f7
+
+testimonials - menu dot active:
+- color-fill: f7f7f7
+- color-stroke: f7f7f7
+- stroke: 1pt
+- width: 15px
+- height: 15px
+
+testimonials - menu dot inactive:
+- color-stroke: f7f7f7
+- stroke: 1pt
+- width: 15px
+- height: 15px
+
+testimonials - quote box:
+- color-stroke: f7f7f7
+- stroke: 1pt
+- width: 370px
+- height: 120px
+
+testimonials - quote icon:
+- font: droidserif regular
+- font-size: 60px
+- font-color: f7f7f7
+- font-opacity: 40%
+
+testimonials - give testimonials button:
+- font: droidserif italic
+- font-size: 18px
+- font-color: acd373
+- button box color: acd373
+- button box width: 200px
+- button box height: 40px
+- stroke: 1pt
+
+blog - header:
+- font: source sans pro regular (caps)
+- font-size: 30px
+- font-color: 454545
+
+blog - tagline:
+- font: droidserif regular
+- font-size: 18px
+- font-color: 454545
+- character-tracking: -50
+
+blog - titles:
+- font: source sans pro semibold
+- font-size: 18px
+- font-color: 454545
+- letter-spacing: -50
