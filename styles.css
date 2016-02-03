@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: #acd373;
     height: 106px;
@@ -62,4 +67,242 @@ header a {
     text-align:center;
     margin-top: 132px;
     display: block;
+}
+
+.WhoWeAre {
+    background-image: url(assets/iphone.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-right: 200px;
+    margin-left: 100px;
+    height: 575px;
+    color: #454545;
+    font-size: 18px;
+    font-family: "Source Sans Pro";    
+}
+
+.WhoWeAre p {
+    width: 60%
+}
+
+.WhoWeAre h3 {
+    color: #454545;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 25px;
+}
+
+h4 {
+    font-family: "DroidSerif";
+    font-size: 18px;
+    color: #454545;
+    text-align: center;
+    margin: auto;
+}
+
+.WhoWeAre img {
+    margin-top: 137px;
+    display: inline-block;
+}
+
+.GreenLink {
+    margin-top: 46px;
+    border: 1px solid #acd373;
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 18px;
+    color: #acd373;
+    text-align: center;
+    line-height: 40px;
+    width: 141px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.Video {
+    background-image: url(assets/video-background.jpg);
+    background-repeat: no-repeat;
+    height: 521px;
+}
+
+.Video img {
+    padding-top: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Services {
+    height: 734px;
+    background-image: url(assets/seperator.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+
+.Services ul {
+    margin-top:95px;
+}
+
+.Services li {
+    display: inline-block;
+    height: 87px;
+    width: 327px;
+    margin-left: 47px;
+    margin-bottom: 82px;
+}
+
+.Services li img {
+    float: left;
+}
+
+.Services p {
+    display: block;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #454545;
+    text-align: left;
+    padding-left: 100px;
+    margin: auto;
+}
+
+.Services p span {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-size: 20px;
+    color: #acd373;
+    text-transform: uppercase;
+}
+
+.Services h3 {
+    color: #454545;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 99px;
+}
+
+.Services h3 span {
+    color: #acd373;
+}
+
+.Services a {
+    position: relative;
+    left: 50%;
+}
+
+.Team {
+    height: 654px;
+    background-image: url(assets/seperator-white.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-color: #acd373;
+}
+
+.Team h3 {
+    color: #f7f7f7;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 101px;
+}
+
+.Team h4 {
+    font-family: "DroidSerif";
+    font-size: 18px;
+    color: #f7f7f7;
+    text-align: center;
+    margin: auto;
+}
+
+.Team ul {
+    background-color: #ebebeb;
+    height: 70px;
+    width: 270px;
+}
+
+.Team li {
+    display: inline;
+    margin-left: 5px;
+    line-height: 85px;
+    position: relative;
+    left: 20%;
+}
+
+.Team p {
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+}
+
+.Team p span {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #acd373;
+    text-align: center;
+}
+
+.TeamMates div {
+    display: inline-block;
+    background-color: #f7f7f7;
+    margin-top: 102px;
+    width: 270px;
+}
+
+.JoinUs {
+    background-color: #9abd67;
+    height: 110px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #f7f7f7;
+    margin: auto;
+}
+
+.WhiteLink {
+    margin-top: 46px;
+    border: 1px solid #f2f2f2;
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 18px;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 40px;
+    width: 141px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+.CompanyLogos ul {
+    background-color: #ebebeb;
+    height: 119px;
+}
+
+.CompanyLogos li {
+    display: inline;
+    margin-left: 20px;
+    line-height: 119px;
+}
+
+footer {
+    background-color: #9abd67;
+    height: 100px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #f7f7f7;
+}
+
+footer li {
+    display: inline;
+    float: right;
+    margin-right: 5px;
 }
