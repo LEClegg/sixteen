@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 nav {
     background-color: #acd373;
     height: 106px;
@@ -82,7 +77,8 @@ header a {
 }
 
 .WhoWeAre p {
-    width: 60%
+    width: 60%;
+    line-height: 20px;
 }
 
 .WhoWeAre h3 {
@@ -135,37 +131,23 @@ h4 {
     margin-right: auto;
 }
 
-.Services {
+.Services, .OurWorks {
     height: 734px;
     background-image: url(assets/seperator.png);
     background-repeat: no-repeat;
     background-position: 50% 15%;
+    background-color: #f7f7f7;
 }
 
 .Services ul {
     margin-top:95px;
 }
 
-.Services li {
-    display: inline-block;
-    height: 87px;
-    width: 327px;
-    margin-left: 47px;
-    margin-bottom: 82px;
-}
-
-.Services li img {
-    float: left;
-}
-
 .Services p {
-    display: block;
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #454545;
     text-align: left;
-    padding-left: 100px;
-    margin: auto;
 }
 
 .Services p span {
@@ -176,22 +158,40 @@ h4 {
     text-transform: uppercase;
 }
 
+.Services img, li div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Services li {
+    display: inline-block;
+    width: 33%;
+    height: 165px;
+}
+
+.Services li div {
+    height: 83px;
+    width: 295px;
+    margin-left: 14px;
+    margin-bottom: 82px;
+}
+
 .Services h3 {
     color: #454545;
     font-size: 30px;
     font-family: "Source Sans Pro";
     text-transform: uppercase;
     text-align: center;
-    margin-top: 99px;
+    padding-top: 99px;
 }
 
 .Services h3 span {
     color: #acd373;
 }
 
-.Services a {
+.Services a, .OurWorks a {
     position: relative;
-    left: 50%;
+    left: 43%;
 }
 
 .Team {
@@ -217,6 +217,8 @@ h4 {
     color: #f7f7f7;
     text-align: center;
     margin: auto;
+    margin-bottom: 141px;
+    margin-top: 22px;
 }
 
 .Team ul {
@@ -239,6 +241,7 @@ h4 {
     font-size: 16px;
     color: #787878;
     text-align: center;
+    margin-top: 21px;
 }
 
 .Team p span {
@@ -249,13 +252,22 @@ h4 {
     font-size: 20px;
     color: #acd373;
     text-align: center;
+    margin-top: 27px;
+}
+
+.TeamPic {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 60px;
 }
 
 .TeamMates div {
     display: inline-block;
     background-color: #f7f7f7;
-    margin-top: 102px;
     width: 270px;
+    height: 178px;
 }
 
 .JoinUs {
@@ -264,7 +276,11 @@ h4 {
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #f7f7f7;
-    margin: auto;
+}
+
+.JoinUs p {
+    padding-left: 563px;
+    padding-top: 47px;
 }
 
 .WhiteLink {
@@ -282,15 +298,83 @@ h4 {
     text-decoration: none;
 }
 
+.OurWorks {
+    background-color: #f7f7f7;
+    height: 1148px
+}
+
+.OurWorks h3 {
+    color: #454545;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 99px; 
+}
+
+.OurWorks h3 span {
+    color: #acd373;
+}
+
+.OurWorks h4 {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.OurWorks p {
+    color: #787878;
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size; 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.OurWorks p span {
+    color: #454545;
+    font-family: "Source San Pro";
+    font-weight: bold;
+    font-style: normal;
+    font-size; 18px;
+}
+
+.CHUCK, .SEO, .LETOY, .SCREENR, .KOKI {
+    background-color: #ebebeb;
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+
+.CHUCK, .SEO {
+    width: 570px;
+    height: 370px;
+}
+
+.LETOY, .SCREENR, .KOKI {
+    width: 370px;
+    height: 300px;
+}
+
 .CompanyLogos ul {
     background-color: #ebebeb;
     height: 119px;
+    line-height: 119px;
 }
 
 .CompanyLogos li {
-    display: inline;
+    display: inline-block;
     margin-left: 20px;
-    line-height: 119px;
+}
+
+.CompanyLogos li img {
+    vertical-align: middle;
+}
+
+.Testimonials {
+    background-image: url("assets/testomonials-background.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+    color: #f7f7f7;
 }
 
 footer {
