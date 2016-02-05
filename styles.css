@@ -3,6 +3,8 @@ nav {
     height: 106px;
     line-height: 106px;
     box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    position: relative;
+    z-index: 1;
 }
 
 nav img {
@@ -131,11 +133,11 @@ h4 {
     margin-right: auto;
 }
 
-.Services, .OurWorks {
+.Services, .OurWorks, .Blog {
     height: 734px;
     background-image: url(assets/seperator.png);
     background-repeat: no-repeat;
-    background-position: 50% 15%;
+    background-position: 50% 176px;
     background-color: #f7f7f7;
 }
 
@@ -183,6 +185,7 @@ h4 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 99px;
+    margin-bottom: 12px;
 }
 
 .Services h3 span {
@@ -192,13 +195,14 @@ h4 {
 .Services a, .OurWorks a {
     position: relative;
     left: 43%;
+    margin-top: 0px;
 }
 
 .Team {
     height: 654px;
     background-image: url(assets/seperator-white.png);
     background-repeat: no-repeat;
-    background-position: 50% 35%;
+    background-position: 50% 178px;
     background-color: #acd373;
 }
 
@@ -218,7 +222,7 @@ h4 {
     text-align: center;
     margin: auto;
     margin-bottom: 141px;
-    margin-top: 22px;
+    margin-top: 17px;
 }
 
 .Team ul {
@@ -279,12 +283,12 @@ h4 {
 }
 
 .JoinUs p {
-    padding-left: 563px;
+    padding-left: 450px;
     padding-top: 47px;
 }
 
 .WhiteLink {
-    margin-top: 46px;
+    /*margin-top: 46px;*/
     border: 1px solid #f2f2f2;
     font-family: "DroidSerif";
     font-style: italic;
@@ -294,16 +298,19 @@ h4 {
     line-height: 40px;
     width: 141px;
     height: 40px;
-    display: block;
+    display: inline-block;
     text-decoration: none;
+    position: relative;
+    left: 710px;
+    bottom: 30px;
 }
 
 .OurWorks {
     background-color: #f7f7f7;
-    height: 1148px
+    height: 1040px
 }
 
-.OurWorks h3 {
+.OurWorks, .Blog h3 {
     color: #454545;
     font-size: 30px;
     font-family: "Source Sans Pro";
@@ -319,13 +326,14 @@ h4 {
 .OurWorks h4 {
     margin-bottom: 100px;
     margin-top: 20px;
+    text-transform: none;
 }
 
 .OurWorks p {
     color: #787878;
     font-family: "DroidSerif";
     font-style: italic;
-    font-size; 16px;
+    font-size: 16px;
     text-align: center;
     padding-top: 15px;
 }
@@ -335,13 +343,18 @@ h4 {
     font-family: "Source San Pro";
     font-weight: bold;
     font-style: normal;
-    font-size; 18px;
+    font-size: 18px;
+}
+
+.OurWorks a {
+    width: 190px;
+    margin-top: 60px;
 }
 
 .CHUCK, .SEO, .LETOY, .SCREENR, .KOKI {
     background-color: #ebebeb;
     display: inline-block;
-    margin-right: 13px;
+    margin-right: 10px;
     margin-bottom: 13px;
 }
 
@@ -375,6 +388,162 @@ h4 {
     background-repeat: no-repeat;
     height: 550px;
     color: #f7f7f7;
+    font-family: "Source Sans Pro";
+    line-height: 22px;
+}
+
+.TestimonialIntro, .TestimonialQuotes {
+    display: inline-block;
+    padding-top: 120px;
+}
+
+.TestimonialQuotes div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.TestimonialQuotes img:nth-of-type(1) {
+    display: block;
+    margin-bottom: 17px;
+}
+
+.TestimonialQuotes img, {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.TestimonialQuotes p {
+    font-family: "DroidSerif"; 
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 28px;
+}
+
+.TestimonialQuotes p span {
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    color: #acd373;
+    margin-bottom: 15px;
+}
+
+.TestimonialIntro {
+    width: 300px;
+    margin-right: 70px;
+}
+
+.TestimonialIntro h3 {
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #f7f7f7;
+    padding-top: 9px;
+    margin-bottom: 41px;
+}
+
+.TestimonialIntro a {
+    width: 200px;
+}
+
+blockquote {
+    font-family: "DroidSerif";
+    font-size: 16px;
+    color: #f7f7f7;
+    background-image: url(assets/quote-icon.png);
+    background-repeat: no-repeat;
+    background-position: 311px 85px;
+    border: 1px solid #f7f7f7;
+    width: 321px;
+    height: 96px;
+    padding-top: 25px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 25px;
+}
+
+.Blog {
+    height: 690px;
+    background-position: 50% 190px;
+}
+
+.Blog a {
+    width: 268px;
+    height: 50px;
+    background-color: #acd373;
+    font-family: "DroidSerif";
+    font-style: italic;
+    color: #f7f7f7;
+    border: 1px solid #acd373;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Blog h3 {
+    padding-top: 113px;
+    margin-bottom: 15px;
+}
+
+.Blog ul {
+    padding-top: 87px;
+}
+
+.Blog li p {
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 18px;
+    color: #454545;
+    padding-top: 224px;
+    text-align: center;
+}
+
+.Blog li {
+    display: inline-block;
+    width: 270px;
+    height: 280px;
+}
+
+.Blog li:nth-of-type(1) {
+    background-image: url(assets/web-design-fundamentals-all.jpg);
+    background-repeat: no-repeat;
+}
+
+.Blog li:nth-of-type(2) {
+    background-image: url(assets/native-app-all.jpg);
+    background-repeat: no-repeat;
+}
+
+.Blog li:nth-of-type(3) {
+    background-image: url(assets/ux-ui-all.jpg);
+    background-repeat: no-repeat;
+}
+
+.Blog li:nth-of-type(4) {
+    background-image: url(assets/gogle-adsense-all.jpg);
+    background-repeat: no-repeat;
+}
+
+.Newsletter {
+    background-color: #acd373;
+    height: 110px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #f7f7f7;
+}
+
+.Newsletter p {
+    position: relative;
+    left: 448px;
+    line-height: 110px;
+}
+
+.Newsletter form {
+    display: inline;
+    position: relative; 
+    left: 824px;
+    bottom: 80px;
 }
 
 footer {
