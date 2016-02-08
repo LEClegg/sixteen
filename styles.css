@@ -198,7 +198,7 @@ h4 {
     margin-top: 0px;
 }
 
-.Team {
+.Team, .ContactUs {
     height: 654px;
     background-image: url(assets/seperator-white.png);
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ h4 {
     background-color: #acd373;
 }
 
-.Team h3 {
+.Team h3, .ContactUs h3 {
     color: #f7f7f7;
     font-size: 30px;
     font-family: "Source Sans Pro";
@@ -395,6 +395,7 @@ h4 {
 .TestimonialIntro, .TestimonialQuotes {
     display: inline-block;
     padding-top: 120px;
+    vertical-align: top;
 }
 
 .TestimonialQuotes div {
@@ -544,6 +545,19 @@ blockquote {
     position: relative; 
     left: 824px;
     bottom: 80px;
+}
+
+.Map {
+    background-image: url(assets/map.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.ContactUs {
+    background-color: #acd373;
+    height: 750px;
+    font-family: "Source Sans Pro";
+    color: #f7f7f7;
 }
 
 footer {
