@@ -1,3 +1,7 @@
+nav, header, .WhoWeAre, .Video, .Team, .Services, .JoinUs, .OurWorks, .CompanyLogos, .Testimonials, .Blog, .Newsletter, .ContactUs, footer {
+    width: 1600px;
+}
+
 nav {
     background-color: #acd373;
     height: 106px;
@@ -27,6 +31,11 @@ nav a:hover {
 
 .container {
     width: 1170px;
+    margin: 0 auto;
+}
+
+.ContainerContact {
+    width: 570px;
     margin: 0 auto;
 }
 
@@ -69,9 +78,10 @@ header a {
 .WhoWeAre {
     background-image: url(assets/iphone.png);
     background-repeat: no-repeat;
-    background-position: center right;
-    margin-right: 200px;
-    margin-left: 100px;
+    background-position: 75% 50%;
+    background-color: #f7f7f7;
+    /*margin-right: 200px;
+    margin-left: 100px;*/
     height: 575px;
     color: #454545;
     font-size: 18px;
@@ -225,20 +235,6 @@ h4 {
     margin-top: 17px;
 }
 
-.Team ul {
-    background-color: #ebebeb;
-    height: 70px;
-    width: 270px;
-}
-
-.Team li {
-    display: inline;
-    margin-left: 5px;
-    line-height: 85px;
-    position: relative;
-    left: 20%;
-}
-
 .Team p {
     font-family: "DroidSerif";
     font-style: italic;
@@ -259,19 +255,37 @@ h4 {
     margin-top: 27px;
 }
 
-.TeamPic {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    margin-top: -30%;
-    margin-left: 60px;
+.Team .container 
+
+.TeamMates li > img {
+    margin-top: -70px;
 }
 
-.TeamMates div {
-    display: inline-block;
-    background-color: #f7f7f7;
+.TeamMates li {
+    background: #f7f7f7;
+    text-align: center;
     width: 270px;
-    height: 178px;
+    height: 247px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.TeamMates li div {
+    height: 70px;
+    background: #ebebeb;
+    line-height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.TeamMates a {
+    margin-right: 5px;
 }
 
 .JoinUs {
@@ -283,12 +297,11 @@ h4 {
 }
 
 .JoinUs p {
-    padding-left: 450px;
+    padding-left: 35%;
     padding-top: 47px;
 }
 
 .WhiteLink {
-    /*margin-top: 46px;*/
     border: 1px solid #f2f2f2;
     font-family: "DroidSerif";
     font-style: italic;
@@ -301,7 +314,7 @@ h4 {
     display: inline-block;
     text-decoration: none;
     position: relative;
-    left: 710px;
+    left: 50%;
     bottom: 30px;
 }
 
@@ -355,7 +368,7 @@ h4 {
     background-color: #ebebeb;
     display: inline-block;
     margin-right: 10px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 .CHUCK, .SEO {
@@ -376,7 +389,7 @@ h4 {
 
 .CompanyLogos li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .CompanyLogos li img {
@@ -468,20 +481,6 @@ blockquote {
     background-position: 50% 190px;
 }
 
-.Blog a {
-    width: 268px;
-    height: 50px;
-    background-color: #acd373;
-    font-family: "DroidSerif";
-    font-style: italic;
-    color: #f7f7f7;
-    border: 1px solid #acd373;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    line-height: 50px;
-}
-
 .Blog h3 {
     padding-top: 113px;
     margin-bottom: 15px;
@@ -496,14 +495,17 @@ blockquote {
     font-weight: 300;
     font-size: 18px;
     color: #454545;
-    padding-top: 224px;
+    padding-top: 215px;
     text-align: center;
 }
 
 .Blog li {
     display: inline-block;
+    vertical-align: top;
     width: 270px;
-    height: 280px;
+    height: 335px;
+    margin-right: 15px;
+    position: relative;
 }
 
 .Blog li:nth-of-type(1) {
@@ -526,6 +528,22 @@ blockquote {
     background-repeat: no-repeat;
 }
 
+.Blog a {
+    width: 268px;
+    height: 50px;
+    background-color: #acd373;
+    font-family: "DroidSerif";
+    font-style: italic;
+    color: #f7f7f7;
+    border: 1px solid #acd373;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
 .Newsletter {
     background-color: #acd373;
     height: 110px;
@@ -536,28 +554,146 @@ blockquote {
 
 .Newsletter p {
     position: relative;
-    left: 448px;
+    left: 30%;
     line-height: 110px;
+    display: inline-block;
 }
 
 .Newsletter form {
-    display: inline;
+    display: inline-block;
     position: relative; 
-    left: 824px;
-    bottom: 80px;
+    left: 35%;
+    line-height: 110px;
 }
 
-.Map {
-    background-image: url(assets/map.jpg);
-    background-repeat: no-repeat;
-    height: 500px;
+.Newsletter input[type=text] {
+    background-color: #acd373;
+    width: 180px;
+    height: 37px;
+    color: #f7f7f7;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerif";
+    font-size: 14px;
+    border: 1px solid #f7f7f7;
+}
+
+/*PLACEHOLDER TEXT*/
+.Newsletter input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f7f7f7;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerif";
+    font-size: 14px;
+}
+
+.Newsletter input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #f7f7f7;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerif";
+    font-size: 14px;
+}
+.Newsletter input[type=text]:-ms-input-placeholder { /* IE 10+ */
+    color: #f7f7f7;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerif";
+    font-size: 14px;
+}
+.Newsletter input[type=text]:-moz-placeholder { /* Firefox 18- */
+    color: #f7f7f7;
+    font-style: italic;
+    text-align: center;
+    font-family: "DroidSerif";
+    font-size: 14px;
+}
+
+.Newsletter img {
+    vertical-align: middle;
 }
 
 .ContactUs {
     background-color: #acd373;
-    height: 750px;
+    height: 820px;
     font-family: "Source Sans Pro";
+    font-size: 18px;
     color: #f7f7f7;
+    background-position: 50% 140px;
+}
+
+.ContactUs p {
+    margin-bottom: 38px;
+}
+
+.ContactUs button {
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 18px;
+    color: #f7f7f7;
+    width: 110px;
+    height: 40px;
+    background-color: #9abd67;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+    left: 460px;
+}
+
+.ContactUs form {
+    padding-top: 68px;
+}
+
+.ContactUs input[type=text], textarea {
+    background-color: #9abd67;
+    width: 550px;
+    height: 40px;
+    color: #f7f7f7;
+    border: none;
+    margin-top: 18px;
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.ContactUs input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #f7f7f7;
+    font-style: italic;
+    font-family: "DroidSerif";
+    font-size: 15px;
+    
+}
+
+.ContactUs input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #f7f7f7;
+    font-style: italic;
+    font-family: "DroidSerif";
+    font-size: 15px;
+}
+
+.ContactUs input[type=text]:-ms-input-placeholder { /* IE 10+ */
+    color: #f7f7f7;
+    font-style: italic;
+    font-family: "DroidSerif";
+    font-size: 15px;
+}
+
+.ContactUs input[type=text]:-moz-placeholder { /* Firefox 18- */
+    color: #f7f7f7;
+    font-style: italic;
+    font-family: "DroidSerif";
+    font-size: 15px;
+}
+
+.ContactUs textarea {
+    background-image: url(assets/drag-icon.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 530px;
+    height: 157px;
+    padding: 20px;
+    line-height: 24px;
 }
 
 footer {
@@ -566,10 +702,21 @@ footer {
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #f7f7f7;
+    display: inline-block;
+}
+
+footer p {
+    line-height: 100px;
+}
+
+footer ul {
+    position: relative;
+    display: inline-block;
+    left: 70%;
+    bottom: 70px;
 }
 
 footer li {
     display: inline;
-    float: right;
     margin-right: 5px;
 }
