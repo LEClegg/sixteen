@@ -1,0 +1,152 @@
+@media all and (max-width: 360px) {
+    
+    nav, header, .WhoWeAre, .Video, .Team, .Services, .JoinUs, .OurWorks, .CompanyLogos, .Testimonials, .Blog, .Newsletter, .ContactUs, footer {
+    width: 360px;
+    }
+    
+    nav .right a {
+        display: none;
+    }
+    
+    nav {
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    nav img {
+        max-width: 70px;
+    }
+    
+    header {
+        height: 350px;
+        background-image: url(assets/skyline-mobile.png);
+    }
+    
+    header h1 {
+        font-size: 18px;
+        padding-top: 125px;
+    }
+    
+    header h2 {
+        font-size: 13px;
+        margin-top: 17px;
+    }
+    
+    header a {
+        margin-top: 56px;
+    }
+    
+    header a img {
+        max-width: 25px;
+    }
+    
+    .container {
+        width: 294px;
+        margin: 0 auto;
+    }
+    
+    .WhoWeAre {
+        background-position: 50% 45px;
+        background-size: 81px 205px;
+        height: 500px;
+        font-size: 13px;  
+    }
+    
+    .WhoWeAre p {
+        width: auto;
+        line-height: 15px;
+        margin-top: 24px;
+    }
+    
+    .WhoWeAre h3 {
+        font-size: 18px;
+        margin-left: 14px;
+    }
+    
+    .WhoWeAre img {
+        margin-top: 285px;
+        max-width: 25px;
+    }
+    
+    .WhoWeAre p:nth-of-type(2), p span {
+        display: none;
+    }
+    
+    .GreenLink {
+        margin-top: 25px;
+        font-size: 11px;
+        line-height: 30px;
+        width: 90px;
+        height: 30px;
+    }
+    
+    .Video {
+        background-image: url(assets/video-background-mobile.jpg);
+        height: 260px;
+    }
+    
+    .Video img {
+        padding-top: 97px;
+        display: block;
+        max-height: 70px;
+    }
+    
+    .Services, .OurWorks, .Blog {
+        height: 500px;
+        background-position: 50% 91px;
+    }
+    
+    .Services h3 {
+        font-size: 18px;
+        padding-top: 44px;
+        margin-bottom: 12px;
+    }
+    
+    h4 {
+        font-size: 12px;
+    }
+    
+    .Services li:nth-of-type(n+4) {
+        display: none;
+    }
+    
+    .Services p {
+        font-size: 13px;
+    }
+    
+    .Services p span {
+        font-size: 144px;
+    }
+    
+    .Services img {
+        max-height: 48px;
+    }
+    
+    .Services li {
+        height: 52px;
+        width: 270px;
+    }
+
+    .Services li div {
+        height: 52px;
+        width: 215px;
+        margin-left: 27px;
+        margin-bottom: 30px;
+    }
+    
+    .Team, .ContactUs {
+        height: 420px;
+        background-position: 50% 95px;
+    }
+    
+    .Team h3, .ContactUs h3 {
+        font-size: 18px;
+        padding-top: 47px;
+    }
+    
+    .Team h4 {
+        font-size: 12px;
+        margin-bottom: 66px;
+        margin-top: 15px;
+    }
+}
